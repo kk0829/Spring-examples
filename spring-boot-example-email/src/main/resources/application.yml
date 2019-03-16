@@ -1,0 +1,6 @@
+spring:
+  mail:
+    host: smtp.126.com
+    username: tzhwg0829@126.com
+    password: sangjijia
+    default-encoding: utf-8
