@@ -16,12 +16,12 @@ public class MailServiceImplTest {
 
     @Test
     public void sendSimpleMail() {
-        mailService.sendSimpleMail("kk@youzan.com", "hello", "world");
+        mailService.sendSimpleMail("244098979@qq.com", "hello", "world");
     }
 
     @Test
     public void sendHtmlMail() {
         String content = "<html><head></head><body><h2>hello world</h2></body></html>";
-        mailService.sendHtmlMail("kk@youzan.com", "hello world", content);
+        mailService.sendHtmlMail("244098979@qq.com", "hello world", content);
     }
 }
